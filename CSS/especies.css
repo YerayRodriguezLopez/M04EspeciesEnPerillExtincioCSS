@@ -4,15 +4,34 @@ h1{
 h3{
 
 }
+a{
+    color: #bcbbbb;
+}
 .menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.menuItem{
+    padding: 5px;
 
 }
 .cabezera{
-
+    display: flex;
+    justify-content: space-between;
 }
 .animals{
-
+    background-color: #548063;
+    width: 500px;
+    height: 25%;
+    margin: 20px;
+    border: 5px solid black;
 }
+.imagen{
+    height: 250px;
+    width: 100%;
+}
+
 .pIndice{
 
 }
@@ -20,8 +39,22 @@ h3{
 
 }
 #listaAnimales{
-
+    background-color: blanchedalmond;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-around;
 }
 #top3{
 
+}
+.foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.biblio{
+    background-color: #335e5e;
 }
