@@ -1,60 +1,99 @@
-h1{
+body {
+    font-family: Arial, sans-serif;
+}
 
-}
-h3{
-
-}
-a{
-    color: #bcbbbb;
-}
-.menu{
-    display: flex;
-    flex-direction: row;
+ul{
     list-style-type: none;
 }
-.menuItem{
-    padding: 5px;
 
-}
-.cabezera{
+.cabezera {
     display: flex;
     justify-content: space-between;
-}
-.animals{
-    background-color: #548063;
-    width: 500px;
-    height: 25%;
-    margin: 20px;
-    border: 5px solid black;
-}
-.imagen{
-    height: 250px;
-    width: 100%;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-.pIndice{
-
+.cabezera h1 {
+    margin: 0;
 }
-#inicio{
 
-}
-#listaAnimales{
-    background-color: blanchedalmond;
-    display: flex;
-    flex-flow: row wrap;
+.menu {
     list-style-type: none;
-    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
-#top3{
 
+.menu li {
+    margin-left: 15px;
 }
-.foot{
-    background-color: black;
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#inicio {
     color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding: 20px;
+    background: #335e5e;
 }
-.biblio{
-    background-color: #335e5e;
+
+#listaAnimales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    background-color: #dddddd;
+}
+
+.animals {
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+}
+
+.animals a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.animals h3, .animals h4, .animals h5 {
+    margin: 10px 0;
+}
+
+.animals img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
 }
